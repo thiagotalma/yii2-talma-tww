@@ -47,7 +47,7 @@ Usage
 $api = new TWWLibrary();
     
 echo "<p>Altera a senha de usuário. A senha pode ter no máximo 18 caracteres. Retorna um boolean indicando o sucesso da operação.</p>\r\n\r\n";
-$AlteraSenhaResult = $api->AlteraSenha("TESTECAP");
+$AlteraSenhaResult = $api->AlteraSenha("NUMUSU");
 echo "AlteraSenhaResult: $AlteraSenhaResult </br>";
 
 echo "<p>Retorna um Objeto chamado OutDataSet contendo uma Tabela chamada BuscaSMSAgenda com UM SMS AGENDADO ESPECIFICADO PELO CAMPO SEUNUM. Retorna Nothing em caso de erro.</p>\r\n\r\n";
